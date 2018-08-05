@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
+import '../css/App.css';
+import SlaveApp from './SlaveApp.js';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <p>
           React App
         </p>
+         <SlaveApp/>
       </div>
     );
   }
